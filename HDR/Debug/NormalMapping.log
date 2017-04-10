@@ -1,0 +1,40 @@
+﻿Build started 3/23/2017 12:03:28 AM.
+     1>Project "C:\Develop\NormalMapping\NormalMapping\NormalMapping.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CubeMap.vcxproj, GeometryShader.vcxproj, LearnOpenGL.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\develop\normalmapping\normalmapping\main.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\develop\normalmapping\normalmapping\main.cpp(275): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\develop\normalmapping\normalmapping\main.cpp(276): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\develop\normalmapping\normalmapping\main.cpp(280): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\develop\normalmapping\normalmapping\main.cpp(281): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\develop\normalmapping\normalmapping\main.cpp(283): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\develop\normalmapping\normalmapping\main.cpp(284): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Develop\NormalMapping\Debug\NormalMapping.exe" /INCREMENTAL /NOLOGO opengl32.lib glew32.lib glfw3.lib SOIL.lib "assimp-vc140-mt.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Develop\NormalMapping\Debug\NormalMapping.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Develop\NormalMapping\Debug\NormalMapping.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Model.obj
+     1>glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(vulkan.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_tls.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(egl_context.obj)' or at 'C:\Develop\NormalMapping\Debug\glfw.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'C:\Develop\NormalMapping\Debug\SOIL.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'C:\Develop\NormalMapping\Debug\SOIL.pdb'; linking object as if no debug info
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'C:\Develop\NormalMapping\Debug\SOIL.pdb'; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'C:\Develop\NormalMapping\Debug\SOIL.pdb'; linking object as if no debug info
+         NormalMapping.vcxproj -> C:\Develop\NormalMapping\Debug\NormalMapping.exe
+     1>Done Building Project "C:\Develop\NormalMapping\NormalMapping\NormalMapping.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12
